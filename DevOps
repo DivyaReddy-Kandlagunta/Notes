@@ -1,6 +1,29 @@
 DevOps: It combines Software Development(Dev) with Information Technology Operations to improve the efficiency and quality of software development, delivery and deployment. It improves teamwork between the development and operations teams so that they may collaborate easily across the whole software development life cycle.
 Continouus Integration: It is a process of integrating code into mainline base code. It is specially designed to regularly integrate code changes into a shared code repository. It's main aim is to provide rapid feedback so that if there is any defect in the code base, it can be resolved as soon as possible.
 Continuous Deployment: It is a process that involves testing, staging and deploying code that happens after code is integrated. It is specially designed to ensure that code can be rapidly and safely deployed to production by delivering every change to production. Its main aim is to have a code base that is always ready for deployment to the production environment. 
-Centralized Vs Distributed:
-    A centralized system is a computing architecture where all processing, decision-making, and data storage are handled by a single, central entity (such as a server). All users and devices rely on this central point for access and functionality.
-    A distributed system is a network of independent computers that work together to achieve a common goal. Each system has its own processing power and may share data or resources, collaborating as a single cohesive system.
+
+With the version control system (VCS), all team members are free to work on any file at any time. Later, VCS will allow the team to integrate all of the modifications into a single version.
+Centralized Version Control System
+    All file versions are stored on a central server
+    No developer has a copy of all files on a local system
+    If the central server crashes, all data from the project will be lost
+Distributed Control System
+    Every developer has a copy of all versions of the code on their systems
+    Enables team members to work offline and does not rely on a single location for backups
+    There is no threat, even if the server crashes
+
+Blue/Green Deplyment Process:
+        This is a method of continuous deployment commonly used to reduce downtime. Traffic is transferred from one instance to another. To include a fresh version of the code, we must replace the old code with a new version. 
+        The new version exists in a green environment, and the old one in a blue environment. After making changes to the previous version, we need a new instance from the old one to execute a newer version of the instance.
+
+Docker: Docker is an open-source containerization platform by which you can pack your application and all its dependencies into a standardized unit called a container. 
+        Containers are light in weight which makes them portable and they are isolated from the underlying infrastructure and from each other container. 
+        We can run the docker image as a docker container in any machine where docker is installed without depending on the operating system. 
+Kubernetes: Kubernetes is an open source container orchestration platform that automates many of the manual processes involved in deploying, managing, and scaling containerized applications.
+            Kubernetes is a platform for managing containers, which bundle the code, configuration, and dependencies of an application, allowing it to run as an isolated process with its own resources. 
+            Each application gets its own container or multiple containers, which are grouped into Kubernetes pods.
+
+Git & GitHub:
+        Git is a distributed version control system that tracks file versions. Git is used by programmers to manage source code, especially when working collaboratively.
+        A cloud-based service that allows developers to store, manage, and track changes to their code. GitHub is a place to upload copies of a Git repository. 
+Git is a version control system that tracks changes to code, while GitHub is a web-based service that hosts Git repositories
