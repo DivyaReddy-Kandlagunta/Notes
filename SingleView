@@ -1,0 +1,28 @@
+What is Billing in Singleview?
+Billing in Singleview refers to the process of calculating and generating invoices for customers based on their usage, subscriptions, and any applicable charges or discounts. The billing process typically involves:
+
+  Usage Collection: Gathering data on customer activities, such as calls, data usage, or other services.
+  Aggregation: Summing up the usage and charges for a specific billing cycle.
+  Invoice Generation: Creating detailed bills, including itemized charges, taxes, and discounts.
+  Delivery: Sending the invoice to the customer (electronically or physically).
+  Billing ensures customers are charged correctly and transparently for the services they use.
+
+What is Rating in Singleview?
+  Rating in Singleview is the process of assigning monetary values to a customer's usage events (like calls, data, or messages). It involves:
+
+  Event Processing: Each customer activity (e.g., a phone call) is treated as an event.
+  Rate Application: Applying predefined pricing rules or rate plans to determine the cost of each event.
+  Example: $0.10 per minute for local calls or $1.00 per GB of data.
+  Output: Calculating the total charge for the usage event.
+  Rating is a crucial step that happens before billing, as it converts raw usage data into billable amounts.
+
+Difference Between Billing and Rating:
+  Rating: Focuses on calculating the cost of individual usage events.
+  Billing: Aggregates all charges (including rated usage, subscriptions, and other fees) and generates a customer invoice.
+
+Example in Telecom:
+  A customer makes a 10-minute call.
+Rating: Singleview applies the rate of $0.10/min to calculate the cost of the call: $1.00.
+  At the end of the month:
+Billing: Singleview totals all charges, adds taxes, applies discounts, and generates a detailed bill for the customer.
+This integration of billing and rating in Singleview makes it ideal for handling complex pricing models and high transaction volumes efficiently.
